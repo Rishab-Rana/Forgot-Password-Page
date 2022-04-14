@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forget Password</title>
+
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Using the play cdn as it was not mentioned if i can use any frameworks -->
+
+
+</head>
+<body>
+  <header>
+
+    <nav class="flex flex-wrap flex-row absolute top-0  w-full bg-[#33a0b9] p-3  justify-between ">
+      <div class="flex-initial ">
+        <img src="/assets//Asset 1_1 1.png" class="w-28 ml-20" alt="Logo" />
+      </div>
+      <div class="flex flex-wrap flex-row gap-[76px] px-[41px]">
+        <h1 class="font-semibold text-[20px] mt-1  align-middle ">Join A Race</h1>
+        <h1 class="font-semibold text-[20px] mt-1 align-middle  ">Leaderborad</h1>
+        <button
+          class="px-6 py-2 bg-gray-50 hover:bg-gray-100 text-gray-800 font-semibold hover:text-gray-700 border border-gray-200 rounded-lg">Login</button>
+      </div>
+    </nav>
+    <!-- End of Nav -->
+  </header>
+
+
+  <div style="background-image:url(/assets/Back\ drop\ 1.png)"
+    class="bg-norepeat bg-cover w-full h-[60vh] absolute  bottom-[10vh] z-[1] "> </div>
+  <div class=" grid w-full h-[90vh] place-items-center">
+
+    <div id="card" class=" z-[100] w-80 p-5">
+      <h1 class="text-3xl tracking-wider font-semibold">Password Reset </h1>
+      <div class="flex flex-wrap flex-col mt-5  ">
+        <label class="pb-2 text-lg  tracking-wider uppercase">New Password</label>
+        <input id="password" type="password" class="p-1 rounded border-gray-900  border-2" />
+        <span class="text-sm italic text-red-500" id="error1"></span>
+      </div>
+      <div class="flex flex-wrap flex-col mt-8  ">
+        <label class="pb-2 text-lg  tracking-wider uppercase">Re-Enter New Password</label>
+        <input id="confirm_Password" type="password" class="p-1 rounded border-gray-900  border-2" />
+        <span class="text-sm italic text-red-500" id="error2"></span>
+      </div>
+      <button id="reset_password"
+        class="w-full bg-gray-900 p-2 mt-20 rounded text-white  tracking-wider text-lg uppercase ">Reset
+        Password</button>
+    </div>
+
+
+  </div>
+
+
+
+  <footer class="p-5  bg-[#2180b3] h-[10vh]">
+
+    <div class="w-3/6 m-auto flex flex-wrap flex-row pt-3 text-white text-lg gap-16">
+      <a href="#">About US</a>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Tutorials</a>
+      <a href="#">Terms Of Service</a>
+
+    </div>
+
+
+
+  </footer>
+
+</body>
+
+<!-- Custom Scripts -->
+<script src="/scripts/main.js"></script>
+
+</html>
